@@ -1,0 +1,29 @@
+/* Para poner comentarios en CSS */ 
+
+/*
+
+Selectores
+
+- Selectores por etiqueta
+- Selectores por clase
+- Selectores por ID
+
+Para poder seleccionar elementos por id, usamos como prefijo (antes del nombre del selector) el signo de # (numeral)
+
+Para poder seleccionar elementos por su clase, utilizamos el signo de . (punto)
+
+*/
+
+.ch27{
+    background-color: rgb(75, 154, 173);
+    margin:30px;
+    border:50px;
+    border-style: solid;
+    border-color: rgb(15, 15, 15);
+}
+
+#Kelly{
+    background-color: blueviolet;
+}
+
+/* Los estilos por id tienen mayor jerarquía que los estilos por clase */
